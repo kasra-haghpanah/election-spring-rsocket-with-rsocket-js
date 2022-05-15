@@ -14,13 +14,17 @@ This application only works on Spring 2.5 or older to upload , so in pom.xml cha
 ```
 
 # Technologies
-Spring Rsocket
-Spring Webflux
-Spring Security
-Spring Rsocket Security
-JWT in Webflux & Rsocket
-angularjs
-rsocket-js browserify
+
+- [x] Spring Rsocket
+- [x] Spring Webflux
+- [x] Spring Security
+- [x] Spring Rsocket Security
+- [x] JWT in Webflux & Rsocket
+- [x] angularjs
+- [x] rsocket-js browserify
+
+
+# Prerequisites
 
 First install mongo db 4.2 or later in your system
 
