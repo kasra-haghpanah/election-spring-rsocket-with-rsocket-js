@@ -436,22 +436,6 @@ public class UserRsocketController {
 
         final String newTitle = String.valueOf(title.replaceAll("-dot-", "."));
         final String newText = String.valueOf(text.replaceAll("-dot-", "."));
-        //256*1024 = 262144
-
-/*        Path path = Paths.get("C:/PC/javaProject/SpringBoot/election/src/main/resources/templates/" + newFilename);
-        AsynchronousFileChannel channel = null;
-        try {
-            channel = AsynchronousFileChannel.open(path, StandardOpenOption.CREATE, StandardOpenOption.WRITE);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return DataBufferUtils.write(content, channel)
-                .flatMap(b -> {
-                    return Mono.just(new MessageDTO().setId("1").setText("kasra").setFilename("1.jpa"));
-                }).reduce((a, b) -> {
-                    return a;
-                });*/
-
 
         return jwtToken.flatMap(
                 jwt -> {
