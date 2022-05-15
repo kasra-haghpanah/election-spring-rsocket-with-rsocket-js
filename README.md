@@ -24,7 +24,7 @@ First click signup then create account yourself and finaly login . Now you see t
 
 ![image](https://user-images.githubusercontent.com/53397941/168492767-1c414c6e-a700-45ec-bf94-30ff7ad3d25d.png)
 
-Now click the upload button and click the send button .
+Now click the upload tap then click the send button .
 
 ![image](https://user-images.githubusercontent.com/53397941/168492923-9b7259e9-d947-42a9-aec5-e1c24817bac1.png)
 
