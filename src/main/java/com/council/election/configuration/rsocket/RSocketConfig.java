@@ -78,7 +78,7 @@ public class RSocketConfig {
         this.userService = userService;
     }
 
-    @Bean("rSocketRequester")//this is rsocket client but it not used anywhere this project
+    @Bean("rSocketRequester")//this rSocketRequester has never been used this project
     public Mono<RSocketRequester> rSocketRequester() {
         return userService.findByUsername("9113394969")
                 .map(
