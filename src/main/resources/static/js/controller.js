@@ -179,7 +179,7 @@ demoApp.run(['$rootScope', '$translate', '$http', '$location', async function ($
         }
     };
 
-    window.changeLanguage("fa");
+    window.changeLanguage($rootScope.languageKey);
     $rootScope.messages = [];
 
     $rootScope.openRsocket = function (token) {
