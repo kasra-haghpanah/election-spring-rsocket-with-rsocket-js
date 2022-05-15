@@ -17,7 +17,7 @@ First install mongo db 4.2 or later in your system
 
 Second in application.properties change adminUsers's value and insert your phone number
 
-Now you can run the application
+Now you can run this application
 
 # Featurs
 First click signup then create account yourself and finaly login . Now you see the following image .
