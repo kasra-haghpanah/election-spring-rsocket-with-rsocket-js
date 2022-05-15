@@ -4,12 +4,14 @@
 
 This application only works on Spring 2.5 or older to upload , so in pom.xml change the spring's version to 2.5.0
 
+```xml
 <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.5.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
 </parent>
+```
 
 First install mongo db 4.2 or later in your system
 
