@@ -30,7 +30,7 @@ Now click the upload tap then click the send button .
 
 For uploading has been used requestChannel and other users will be notified (broad cast)
 
-The Users management's tree used requestStream as well
+The Users management's tree uses requestStream as well
 
 For downloading go to Content and click on the item you want . For downloading has been used requestStream
 
