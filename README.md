@@ -21,6 +21,7 @@ This application only works on Spring 2.5 or older to upload , so in pom.xml cha
 - [x] Spring Rsocket Security
 - [x] Spring Mongodb Reactive
 - [x] JWT in Webflux & Rsocket
+- [x] Reactor Netty
 - [x] angularjs
 - [x] rsocket-js browserify
 
