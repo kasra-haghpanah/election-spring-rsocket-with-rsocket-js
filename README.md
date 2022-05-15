@@ -20,7 +20,7 @@ Second in the application.properties change adminUsers's value and insert your p
 Now you can run this application
 
 # Featurs
-First click signup then create account yourself and finaly login . Now you see the following image .
+First click The Signup button then create a account yourself and finaly login . Now you see the following image .
 
 ![image](https://user-images.githubusercontent.com/53397941/168492767-1c414c6e-a700-45ec-bf94-30ff7ad3d25d.png)
 
