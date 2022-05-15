@@ -28,7 +28,7 @@ Now click the Upload tap then click the send button .
 
 ![image](https://user-images.githubusercontent.com/53397941/168492923-9b7259e9-d947-42a9-aec5-e1c24817bac1.png)
 
-For uploading has been used requestChannel and other users will be notified (broad cast)
+For uploading has been used requestChannel and other users will be notified as well (broad cast)
 
 The Users management's tree uses requestStream as well
 
