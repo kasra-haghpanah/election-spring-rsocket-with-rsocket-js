@@ -1,24 +1,34 @@
 # election-spring-rsocket-with-rsocket-js
 
-first install mongo db 4.2 or later in your system
+# Notice
 
-second in application.properties change adminUsers's value and insert your phone number
+This application only works on Spring 2.5 or older to upload , so in pom.xml change the spring's version to 2.5.0
 
-now you can run the application
+<parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
+</parent>
+
+First install mongo db 4.2 or later in your system
+
+Second in application.properties change adminUsers's value and insert your phone number
+
+Now you can run the application
 
 # Featurs
-first click signup then create acount yourself and finaly login . now you see the following image .
+First click signup then create account yourself and finaly login . Now you see the following image .
 
 ![image](https://user-images.githubusercontent.com/53397941/168492767-1c414c6e-a700-45ec-bf94-30ff7ad3d25d.png)
 
-now click the upload button and click the send button .
+Now click the upload button and click the send button .
 
 ![image](https://user-images.githubusercontent.com/53397941/168492923-9b7259e9-d947-42a9-aec5-e1c24817bac1.png)
 
+For uploading has been used requestChannel and other users will be notified (broad cast)
 
-for uploading has been used requestChannel and other users will be notified (broad cast)
+The Users management used requestStream as well
 
-in Users management used requestStream as well
-
-for downloading go to Content and click on the item you want.for downloading has been used requestStream
+For downloading go to Content and click on the item you want . For downloading has been used requestStream
 
