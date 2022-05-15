@@ -24,6 +24,7 @@ This application only works on Spring 2.5 or older to upload , so in pom.xml cha
 - [x] Reactor Netty
 - [x] angularjs
 - [x] rsocket-js browserify
+- [x] bootstrap 4
 
 
 # Prerequisites
