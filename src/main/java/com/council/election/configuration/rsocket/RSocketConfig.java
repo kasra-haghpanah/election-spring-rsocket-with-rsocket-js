@@ -78,7 +78,7 @@ public class RSocketConfig {
         this.userService = userService;
     }
 
-    @Bean("rSocketRequester")//this rSocketRequester has never been used this project
+    @Bean("rSocketRequester")//this rSocketRequester has never been used this project, it usually uses for rsocket cloud getway after receive request from gateway
     public Mono<RSocketRequester> rSocketRequester() {
         return userService.findByUsername("9113394969")
                 .map(
