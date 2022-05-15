@@ -36,6 +36,12 @@ Second in the application.properties change adminUsers's value and insert your p
 
 Now you can run this application
 
+# Application URL
+http://localhost:8095
+
+# Swagger URL
+http://localhost:8095/swagger-ui/
+
 # Featurs
 First click The Signup button then create a account yourself and finaly login . Now you see the following image .
 
@@ -51,8 +57,4 @@ The Users management's tree uses requestStream as well
 
 For downloading go to The Content tap and click on the item you want . For downloading has been used requestStream
 
-
-# Swagger URL
-
-http://localhost:8095/swagger-ui/
 
