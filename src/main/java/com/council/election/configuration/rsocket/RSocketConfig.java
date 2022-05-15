@@ -52,6 +52,7 @@ public class RSocketConfig {
     public static final String FILE_NAME = "file-name";
     public static final String FILE_EXTN = "file-extn";
 
+    // for broadcasting in rsocket cloud gateway you can use redis for store user's session as a live object
     public static final Map<String, Queue<RSocketRequester>> connectedClients = new ConcurrentHashMap<String, Queue<RSocketRequester>>();
     final Environment environment;
     final Object host;
