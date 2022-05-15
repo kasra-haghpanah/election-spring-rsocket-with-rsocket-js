@@ -51,7 +51,7 @@ demoApp.run(['$rootScope', '$translate', '$http', '$location', async function ($
         {key: "fa", name: "فارسی"}
     ]
 
-    $rootScope.languageKey = $rootScope.languages[1].key;
+    $rootScope.languageKey = $rootScope.languages[0].key;
 
     $rootScope.treeType = "";
     $rootScope.treeTypes = ["", "filesystem"];
