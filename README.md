@@ -13,6 +13,15 @@ This application only works on Spring 2.5 or older to upload , so in pom.xml cha
 </parent>
 ```
 
+# Technologies
+Spring Rsocket
+Spring Webflux
+Spring Security
+Spring Rsocket Security
+JWT in Webflux & Rsocket
+angularjs
+rsocket-js browserify
+
 First install mongo db 4.2 or later in your system
 
 Second in the application.properties change adminUsers's value and insert your phone number
