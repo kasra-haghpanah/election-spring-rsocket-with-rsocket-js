@@ -20,6 +20,7 @@ This application only works on Spring 2.5 or older to upload , so in pom.xml cha
 - [x] Spring Security
 - [x] Spring Rsocket Security
 - [x] Spring Mongodb Reactive
+- [x] Spring Swagger
 - [x] JWT in Webflux & Rsocket
 - [x] Reactor Netty
 - [x] angularjs
@@ -49,4 +50,9 @@ For uploading has been used requestChannel and other users will be notified as w
 The Users management's tree uses requestStream as well
 
 For downloading go to The Content tap and click on the item you want . For downloading has been used requestStream
+
+
+# Swagger URL
+
+http://localhost:8095/swagger-ui/
 
