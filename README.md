@@ -22,6 +22,7 @@ This application only works on Spring 2.5 or older to upload , so in pom.xml cha
 - [x] [Spring Swagger](https://github.com/springfox/springfox)
 - [x] [Spring Retry](https://github.com/spring-projects/spring-retry)
 - [x] [Spring thymeleaf](https://github.com/thymeleaf/thymeleaf-spring)
+- [x] [Spring Validation](https://github.com/spring-projects/spring-boot/blob/main/spring-boot-project/spring-boot-starters/spring-boot-starter-validation/build.gradle)
 - [x] [JWT in Webflux & Rsocket](https://github.com/jwtk/jjwt)
 - [x] [Reactor Netty](https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-starters/spring-boot-starter-reactor-netty)
 - [x] [AngularJs](https://github.com/angular/angular.js?)
