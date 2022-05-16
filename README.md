@@ -14,7 +14,7 @@ This application only works on Spring 2.5 or older to upload , so in pom.xml cha
 ```
 
 # Technologies
-- [X] [Spring Rsocket](https://github.com/benwilcock/spring-rsocket-demo)
+- [x] [Spring Rsocket](https://github.com/benwilcock/spring-rsocket-demo)
 - [x] [Spring Webflux](https://github.com/spring-projects/spring-framework/tree/main/spring-webflux)
 - [x] [Spring Security](https://github.com/spring-projects/spring-security)
 - [x] [Spring Rsocket Security](https://github.com/spring-tips/rsocket-security)
