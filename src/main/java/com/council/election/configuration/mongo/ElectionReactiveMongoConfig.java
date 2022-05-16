@@ -36,7 +36,7 @@ public class ElectionReactiveMongoConfig {
     // https://docs.mongodb.com/drivers/reactive-streams/
 
     // mongod --replSet rs0 --port 27017 --bind_ip localhost --dbpath "C:/Program Files/MongoDB/Server/4.2/data/rs0-0"  --oplogSize 128
-    @Retryable(exclude = {ConnectException.class},
+    @Retryable(include = {ConnectException.class},
             maxAttemptsExpression = "3",
             backoff = @Backoff(
                     delayExpression = "20000",
