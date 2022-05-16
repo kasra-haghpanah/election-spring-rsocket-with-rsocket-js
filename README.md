@@ -14,18 +14,19 @@ This application only works on Spring 2.5 or older to upload , so in pom.xml cha
 ```
 
 # Technologies
-
-- [x] Spring Rsocket
-- [x] Spring Webflux
-- [x] Spring Security
-- [x] Spring Rsocket Security
-- [x] Spring Mongodb Reactive
-- [x] Spring Swagger
-- [x] JWT in Webflux & Rsocket
-- [x] Reactor Netty
-- [x] angularjs
-- [x] rsocket-js browserified
-- [x] bootstrap 4
+- [X] [Spring Rsocket](https://github.com/benwilcock/spring-rsocket-demo)
+- [x] [Spring Webflux](https://github.com/spring-projects/spring-framework/tree/main/spring-webflux)
+- [x] [Spring Security](https://github.com/spring-projects/spring-security)
+- [x] [Spring Rsocket Security](https://github.com/spring-tips/rsocket-security)
+- [x] [Spring Data Mongodb Reactive](https://github.com/spring-projects/spring-data-mongodb/blob/main/src/main/asciidoc/reference/reactive-mongo-repositories.adoc)
+- [x] [Spring Swagger](https://github.com/springfox/springfox)
+- [x] [Spring Retry](https://github.com/spring-projects/spring-retry)
+- [x] [Spring thymeleaf](https://github.com/thymeleaf/thymeleaf-spring)
+- [x] [JWT in Webflux & Rsocket](https://github.com/jwtk/jjwt)
+- [x] [Reactor Netty](https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-starters/spring-boot-starter-reactor-netty)
+- [x] [AngularJs](https://github.com/angular/angular.js?)
+- [x] [rsocket-js browserified](https://github.com/rsocket/rsocket-js/tree/master)
+- [x] [bootstrap](https://github.com/twbs)
 
 
 # Prerequisites
