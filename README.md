@@ -26,7 +26,7 @@ This application only works on Spring 2.5 or older to upload , so in pom.xml cha
 - [x] [JWT in Webflux & Rsocket](https://github.com/jwtk/jjwt)
 - [x] [Reactor Netty](https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-starters/spring-boot-starter-reactor-netty)
 - [x] [AngularJs](https://github.com/angular/angular.js?)
-- [x] [rsocket-js browserified](https://github.com/rsocket/rsocket-js/tree/master)
+- [x] [browserified rsocket-js](https://github.com/rsocket/rsocket-js/tree/master)
 - [x] [bootstrap](https://github.com/twbs)
 
 
