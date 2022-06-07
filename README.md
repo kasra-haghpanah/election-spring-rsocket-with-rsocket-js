@@ -34,7 +34,7 @@ This application only works on Spring 2.5 or older to upload , so in pom.xml cha
 
 First install mongo db 4.2 or later in your system
 
-Second in the application.properties change adminUsers's value and insert your phone number
+Second in the application.properties change the value of the adminUsers as key  and insert your phone number
 
 Now you can run this application
 
